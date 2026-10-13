@@ -75,21 +75,6 @@ fastboot flashing lock
 
 `avb_pkmd.bin` is the public AVB key. Keep the private key offline.
 
-## Forks
-
-Every public fork on [FunMan1995](https://github.com/FunMan1995) was checked against this image.
-
-| Fork | Parent | In this image |
-| --- | --- | --- |
-| [Magisk](https://github.com/FunMan1995/Magisk) | [pixincreate/Magisk](https://github.com/pixincreate/Magisk) | Yes. The system binary is parent commit [`189e867f`](https://github.com/pixincreate/Magisk/commit/189e867f) (`189e867f:MAGISK:R (31000)`, 2026-09-15). Fork `master` is [`a0f4091`](https://github.com/FunMan1995/Magisk/commit/a0f4091898e0) (2026-08-27) and has no release. Those six fork commits are the GrapheneOS changes: point URLs at pixincreate, CI, Zygisk on GrapheneOS, secure app spawning, and hiding direct install on a locked bootloader. Parent `189e867f` is 67 commits ahead of that snapshot, with the same changes already rebased. The OTA folder's manager APK is `Magisk-v31.0-3.apk` from that parent line. |
-| [Mango](https://github.com/FunMan1995/Mango) | [Hexadecinull/Mango](https://github.com/Hexadecinull/Mango) | No. AArch32 bridge, separate from this OTA. |
-| [armada](https://github.com/FunMan1995/armada) | [armada-os/armada](https://github.com/armada-os/armada) | No. ARM handheld distro. |
-| [dragnwash-modframework](https://github.com/FunMan1995/dragnwash-modframework) | [TomXV/dragnwash-modframework](https://github.com/TomXV/dragnwash-modframework) | No. Drag'n Wash mod API. |
-| [MeMedia](https://github.com/FunMan1995/MeMedia) | [aniyomiorg/aniyomi](https://github.com/aniyomiorg/aniyomi) | No. Manga and anime app. |
-| [fansly-downloader-ng](https://github.com/FunMan1995/fansly-downloader-ng) | [prof79/fansly-downloader-ng](https://github.com/prof79/fansly-downloader-ng) | No. Downloader. |
-
-Custota, OEMUnlockOnBoot, and avbroot are upstream [chenxiaolong](https://github.com/chenxiaolong) projects. There is no fork of those under FunMan1995.
-
 ## Upstream
 
 - GrapheneOS stable `2026091000`: https://grapheneos.org/releases
