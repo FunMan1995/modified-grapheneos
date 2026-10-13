@@ -1,0 +1,10 @@
+ota-property-files=payload_metadata.bin:2996:124374,payload.bin:2996:1720530898,payload_properties.txt:1720533962:156,apex_info.pb:1466:1473,care_map.pb:1720534175:763,metadata:1720535013:669,metadata.pb:1720535760:1188   
+ota-required-cache=0
+ota-streaming-property-files=payload.bin:2996:1720530898,payload_properties.txt:1720533962:156,apex_info.pb:1466:1473,care_map.pb:1720534175:763,metadata:1720535013:669,metadata.pb:1720535760:1188   
+ota-type=AB
+post-build=google/komodo/komodo:17/CP2A.260805.005/2026091000:user/release-keys
+post-build-incremental=2026091000
+post-sdk-level=37
+post-security-patch-level=2026-09-01
+post-timestamp=1789042775
+pre-device=komodo

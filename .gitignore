@@ -1,0 +1,11 @@
+*.zip
+*.apk
+*.bin
+*.img
+keys/
+*.pk8
+*.pem
+*.der
+avb_pkmd.bin
+*.keystore
+*.jks

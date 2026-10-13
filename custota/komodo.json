@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "full": {
+    "location_ota": "komodo-ota_update-2026091000-magisk-custota-noclient.zip",
+    "location_csig": "komodo-ota_update-2026091000-magisk-custota-noclient.zip.csig"
+  }
+}
